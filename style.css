@@ -1,0 +1,47 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+header {
+    padding: 0.6em;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input {
+    width: 60vw;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    font-family: 'Sansita Swashed', cursive;
+    border-radius: 18px;
+    
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
